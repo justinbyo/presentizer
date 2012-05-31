@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* GENERAL */
+
+#body-wrap {width:100%; height:100%;}
+
+/* HEADER */
+
+#top-header {width:100%; height:40px; background-color:#222222; color:#cccccc; font-family:"Museo Slab 500"; float:left; z-index:5000; position:fixed; top:0; -moz-box-shadow:0px 1px 2px rgba(0,0,0,.6);  }
+
+#corner-logo {width:60px; height:60px; padding:0px; margin:0px; position:fixed; top:0px; left:0px; background:url("images/corner-detail.png") center center no-repeat; z-index:9999;}
+
+#header-container {width:100%; height:40px; margin-left:auto; margin-right:auto;}
+
+#header-container a, #header-container a:link, #header-container a:active, #header-container a:visited {text-decoration:none; color:#cccccc;}
+
+#header-container a { -webkit-transition:color .25s ease-in;  
+   -moz-transition:color .25s ease-in;  
+   -o-transition:color .25s ease-in;  
+   transition:color .25s ease-in;  }
+
+#header-container a:hover { color:#FFFFFF;}
+
+#client-title {width:40%; height:30px; float:left; padding-top:10px; padding-left:75px;}
+
+#menu-list {width:40%; float:right; height:30px; padding-top:10px; padding-right:20px;}
+
+#header-container ul {list-style-type: none; float:right; height:40px; width:auto; padding:0px; margin:0px;}
+
+#header-container li {float:left; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:15px; margin:0px;}
+
+/* SIDE NAVIGATION */
+
+#sidebar-container {width:50px; height:4800px; background-color:rgba(0,0,0,.70); position:fixed; left:0px; z-index:500;}
+
+#buttons {width:50px; height:500px; position:fixed; top:10%; left:0px;}
+
+.page-button {height:50px; padding:0px; margin:0px; float:left;}
+
+#page-1-button {width:50px; background-color:#db6e0d; }
+
+#page-2-button {width:50px; background-color:#F47A0C;}
+
+#page-3-button {width:50px; background-color:#FCBE32;}
+
+#page-4-button {width:50px; background-color:#F2D041; }
+
+#page-5-button {width:50px; background-color:#BCAF8F;}
+
+#page-6-button {width:50px; background-color:#999282;}
+
+#page-7-button {width:50px; background-color:#5E5E5E;}
+
+.page-button a {text-decoration:none; color:#FFFFFF; font-family:"Museo Slab 500",helvetica,arial,sans-serif;font-size:22px; }
+
+.page-button a > p {margin:0px,0px,0px,10px; ; position:relative; top:14px; left:19px; z-index:9999;}
+
+.button-title {width:260px; height:36px; position:relative; top:0px; padding-top:14px; padding-right:20px; padding-left:20px;  margin-top:-22px; text-align:right;}
+
+#button-1-title {background-color:#db6e0d; left:-300px; }
+
+#button-2-title {background-color:#F47A0C; left:-300px; }
+
+#button-3-title {background-color:#FCBE32; left:-300px; }
+
+#button-4-title {background-color:#F2D041; left:-300px; }
+
+#button-5-title {background-color:#BCAF8F; left:-300px; }
+
+#button-6-title {background-color:#999282; left:-300px; }
+
+#button-7-title {background-color:#5E5E5E; left:-300px; }
+
+/* PAGE SIZES */
+
+#page-wrapper {width:100%; height:100%; margin:0px; padding:0px;}
+
+.page-container {width:100%; height:1600px; padding:0px; margin:0px;}
+
+.content {
+	width:83%;
+	height:1600px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 7%;
+	padding-top: 100px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10%;
+}
+
+.content a, .content a:link, .content a:active, .content a:visited, .content a:hover {text-decoration:none; color:#ffffff;}
+
+/* PAGE COLORS */
+
+#page-1 {background-color:#db6e0d;}
+
+#page-2	{background-color:#F47A0C;}
+
+#page-3 {background-color:#FCBE32;}
+
+#page-4 {background-color:#F2D041;}
+
+#page-5	{background-color:#BCAF8F;}
+
+#page-6 {background-color:#999282;}
+
+#page-7 {background-color:#5E5E5E;}
+
+/* FONTS */
+
+h1 {font-size:56px; color:#222222; font-family:"BebasNeue",helvetica,arial,sans-serif; border-bottom:3px solid #222222; padding-bottom:10px; width:70%; max-width:500px;}
+
+h2 {font-size:18px; font-family:"Museo Slab 500", helvetica, arial, sans-serif; color:#FFFFFF; margin-top:20px;}
+
+h4 {font-family:"BebasNeue",helvetica,arial,sans-serif; color:#FFFFFF; margin-top:20px;}
+
+#page-1 h1 {font-size:150px; padding-bottom:0px;}
+
+#page-2 h1 {
+	color:#222222;
+	border-bottom:3px solid #222222;
+	width:500px;
+	left: 200px;
+}
+
+#page-3 h1 { color:#222222; border-bottom:3px solid #222222; width:500px;}
+
+.content p {
+	font-size:16px;
+	font-weight:bold;
+	font-family:helvetica,arial,sans-serif;
+	color:#222222;
+	width:500px;
+	padding-top:19px;
+	line-height:1.5;
+}
+
+p.emphasis {font-size:24px; color:#FFFFFF;}
+
+.highlight {color:#F2D041;}
+
+/* GOALS */
+
+#goal-border {width:458px; border:1px solid #db6e0d; margin:25px 0px 0px 0px; padding:20px 20px 30px 20px;}
+
+#goal-container {width:458px; height:250px;  margin:0px; }
+
+.goal-number {float:left; margin:0px; width:62px; height:183px; border-right:3px solid #222222;}
+
+.goal-description {float:left; width:339px; padding-left:34px;}
+
+.goal-description p {width:auto; padding-top:0px; }
+
+#page-3 .goal-number h1 {font-size:100px; color: #222222; border:none;}
+
+#goal-list li {width:458px; height:250px;}
+
+span#prevBtn1 a {background-color:#db6e0d; padding:8px; border:1px solid #db6e0d; float:left; margin-left:-20px; text-decoration:none; color:#FFFFFF; font-family:"Museo Slab 500",helvetica,arial,sans-serif;font-size:12px; }
+ 
+span#nextBtn1 a {background-color:#db6e0d; padding:8px 18px; border:1px solid #db6e0d; float:right; margin-right:-20px; text-decoration:none; color:#FFFFFF; font-family:"Museo Slab 500",helvetica,arial,sans-serif;font-size:12px; }
+
+

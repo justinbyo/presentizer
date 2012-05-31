@@ -1,0 +1,6 @@
+Presently (http://jay-bee-why.com/presently/presently.html) is a single-page presentation template created using HTML, CSS3, and a little dash of jQuery. I originally built it for a client looking for a web-based alternative to a typical Powerpoint presentation. I was so pleased with how it turned out that I decided to resurrect it from a folder on my desktop and release it into the wild. I have a checklist going of more features I'd like to add, including documentation, but until then what you see is what you get. I also created this repository in an effort to learn a little about Git, so I'll be coming back to the code.
+
+If you like what you see, help yourself. It requires jQuery and it's been browser tested for Firefox, Chrome, and Safari. The "goal" functionality uses EasySlider (http://cssglobe.com/post/5780/easy-slider-17-numeric-navigation-jquery-slider). Drop me a tweet (@theJayBeeWhy) letting me know if you've put it to good use or improved it. I have no idea where this project is headed, but I'll eventually get around to adding a To-Do list for myself.
+
+Good luck and happy presenting!
+Justin Barr Young, jay-bee-why.com
